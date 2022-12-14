@@ -1,0 +1,22 @@
+body {
+  background-color: #f1f1f1;
+  animation: move 5s ease infinite;
+}
+
+@keyframes move {
+  0% {
+    background-color: #d4d4d4;
+  }
+  25% {
+    background-color: #f8dbdb;
+  }
+  50% {
+    background-color: #fef9f9;
+  }
+  75% {
+    background-color: #dadada;
+  }
+  100% {
+    background-color: #c4bebe;
+  }
+}
