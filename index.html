@@ -19,13 +19,18 @@
         <h1 class="text-center mt-5">Todo List</h1>
         <form class="form mt-5">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-8">
-                    <input class="form-control p-4 fs-3 mb-3" type="text" placeholder="Todo...">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-6">
+                    <input class="form-control p-4 fs-3 mb-3" type="text" placeholder="Todo..." autofocus>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-4">
-                    <button class="btn btn-success w-100 p-4 fs-3" type="submit">Add task <em
+                    <button class="btn btn-success w-100 p-4 fs-3 mb-3" type="submit">Add task <em
                             class="fa-sharp fa-solid fa-circle-plus ms-1 align-middle"></em> </button>
                 </div>
+                <button class="js-record btn btn-primary p-4 fs-3 mb-3 col-12 col-sm-12 col-md-12 col-lg-2 col-2">Record
+                    <div class="spinner-grow text-danger d-none js-spinner" role="status">
+                    </div>
+                </button>
+
             </div>
             <ul class="js-list list-group">
             </ul>
